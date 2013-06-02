@@ -27,7 +27,7 @@ package me.aybabt.couverture;
 public final class VictimlessPackageException extends Exception {
 
   VictimlessPackageException(String packageName) {
-    super(String.format("Package <%s> has no class to be abused!",
+    super(String.format("Package <%s> has no class that can be abused!",
                         packageName));
   }
 }
